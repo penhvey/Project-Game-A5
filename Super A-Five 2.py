@@ -25,6 +25,7 @@ canvas.create_rectangle(650, 595, 550, 810, fill="black", tags="wall")
 canvas.create_rectangle(400, 530, 350, 810, fill="black", tags="wall")
 canvas.create_rectangle(400, 570, 300, 810, fill="black", tags="wall")
 canvas.create_rectangle(400, 600, 250, 810, fill="black", tags="wall")
+canvas.create_rectangle(400, 600, 250, 810, fill="black", tags="wall")
 
 
 
@@ -96,5 +97,6 @@ gravity()
 
 window.bind("<Key>", start_move)
 window.bind("<KeyRelease>", stop_move)
+
 
 window.mainloop()
